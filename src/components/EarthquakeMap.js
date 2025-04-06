@@ -39,7 +39,7 @@ const EarthquakeMap = ({ filters, isLoading }) => {
       center={[0, 0]}
       zoom={2}
       style={{ height: "600px", width: "100%" }}
-      scrollWheelZoom={true}
+      scrollWheelZoom={false}
       dragging={true}
     >
       <TileLayer
